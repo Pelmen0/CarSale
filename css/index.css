@@ -1,0 +1,200 @@
+body {
+    margin: 0;
+}
+
+.dropdown-header {
+    display: none;
+    width: fit-content;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+}
+
+.header-nav {
+    position: absolute;
+    top: 35px;
+    right: 0;
+}
+
+.header-link {
+    color: white;
+    text-decoration: none;
+}
+
+.header-link:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.header-link:active {
+    color: white;
+    text-decoration: none;
+}
+
+.header-button {
+    margin-right: 5px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.header-text {
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    color: white;
+    padding-top: 38px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+@media (max-width: 900px) {
+    .header-nav {
+        display: none;
+    }
+
+    .dropdown {
+        display: block;
+        position: absolute;
+        top: 33px;
+        right: 5px;
+    }
+}
+
+.sale {
+    text-align: center;
+    background-image: url(../assets/original.png);
+    background-size: cover;
+    height: 500px;
+    opacity: 0.9;
+}
+
+.sale-text {
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    position: relative;
+    top: 200px;
+    text-shadow: 3px 5px 6px black;
+}
+
+.space {
+    height: 50px;
+}
+
+.block-auto {
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgb(41, 41, 41);
+    padding: 8px;
+}
+
+.auto {
+    width: 99%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.button-auto {
+    position: relative;
+    top: 25px;
+}
+
+.button-auto1 {
+    position: relative;
+    top: 36px;
+}
+
+.text-menu {
+    margin: 10px;
+    color: white;
+}
+
+main {
+    background-image: url(../assets/subtle-prism.svg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contact {
+    margin-top: 25px;
+}
+
+.contact-text {
+    color: white;
+    width: 40%;
+    word-wrap: break-word;
+}
+
+.contact-img {
+    width: 100%;
+}
+
+h2 {
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 5px 6px black;
+}
+
+.Msc {
+    margin: 10px;
+    width: 50%;
+}
+
+.Moscow {
+    display: inline-block;
+    width: 50%;
+    margin: 10px;
+}
+
+.Saint-Petersburg {
+    margin: 10px;
+    width: 50%;
+}
+
+.SPB {
+    display: inline-block;
+    width: 50%;
+    margin: 10px;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.socicon {
+    width: 70px;
+    height: 70px;
+    border-radius: 20%;
+    display: inline-block;
+    padding: 10px;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.vk:hover {
+    background-color: #0077ff;
+}
+
+.yt:hover {
+    background-color: #c30000;
+}
+
+.tg:hover {
+    background-color: #0088cc;
+}
